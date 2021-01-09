@@ -6,7 +6,7 @@ library(tm)
 library(wordcloud)
 library(e1071)
 
-sms_spam_df <- read.csv(file="E:\\Aditi\\7th SEM\\DTS\\LAB\\sms_spam.csv",stringsAsFactors = F)
+sms_spam_df <- read.csv(file="C:\\Users\\USER\\Desktop\\College-7th-Semester\\Labs\\DS\\sms_spam.csv",stringsAsFactors = F)
 str(sms_spam_df)
 
 #head(sms_spam_df) head displays first 5 rows
